@@ -1,38 +1,5 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:references
-LIBS:relays
-LIBS:OAED-library
-LIBS:High-Voltage-board-cache
-EELAYER 25 0
+EESchema Schematic File Version 4
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -72,7 +39,7 @@ F8 "+VOUT" O R 6250 1800 60
 F9 "-VOUT" O R 6250 2400 60 
 $EndSheet
 $Comp
-L CP1 Cout1
+L Device:CP1 Cout1
 U 1 1 57D1AE78
 P 4250 2100
 F 0 "Cout1" H 4275 2200 50  0000 L CNN
@@ -83,11 +50,11 @@ F 3 "" H 4250 2100 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3650 1800 4850 1800
+	3650 1800 4250 1800
 Wire Wire Line
 	4250 1800 4250 1950
 $Comp
-L GND #PWR1
+L power:GND #PWR1
 U 1 1 57D1B22B
 P 1900 3500
 F 0 "#PWR1" H 1900 3250 50  0001 C CNN
@@ -99,7 +66,7 @@ F 3 "" H 1900 3500 50  0000 C CNN
 $EndComp
 Connection ~ 4250 1800
 Wire Wire Line
-	3650 2400 4850 2400
+	3650 2400 4250 2400
 Wire Wire Line
 	4250 2250 4250 2400
 Connection ~ 4250 2400
@@ -133,4 +100,8 @@ Wire Wire Line
 	1900 3500 1900 3200
 Wire Wire Line
 	1900 3200 2250 3200
+Wire Wire Line
+	4250 1800 4850 1800
+Wire Wire Line
+	4250 2400 4850 2400
 $EndSCHEMATC

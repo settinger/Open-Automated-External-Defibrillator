@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name OAED-library)(type Legacy)(uri ${KIPRJMOD}/OAED-library/OAED-library.lib)(options "")(descr ""))
+)

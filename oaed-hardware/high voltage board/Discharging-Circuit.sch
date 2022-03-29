@@ -1,38 +1,5 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:references
-LIBS:relays
-LIBS:OAED-library
-LIBS:High-Voltage-board-cache
-EELAYER 25 0
+EESchema Schematic File Version 4
+EELAYER 30 0
 EELAYER END
 $Descr A4 8268 11693 portrait
 encoding utf-8
@@ -49,7 +16,7 @@ $EndDescr
 Text HLabel 3800 850  0    98   Input ~ 0
 COUT
 $Comp
-L Q_NIGBT_GCE Q2
+L Device:Q_NIGBT_GCE Q2
 U 1 1 57D1B6F3
 P 3050 2650
 F 0 "Q2" H 3350 2700 50  0000 R CNN
@@ -60,7 +27,7 @@ F 3 "" H 3050 2650 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TLP250 U3
+L Driver_FET:TLP250 U3
 U 1 1 57D27385
 P 2000 2650
 F 0 "U3" H 1750 3150 50  0000 C CNN
@@ -70,12 +37,12 @@ F 3 "" H 1845 2650 50  0000 L CNN
 	1    2000 2650
 	1    0    0    -1  
 $EndComp
-Text HLabel 1100 2550 0    98   Input ~ 0
+Text HLabel 1100 2350 0    98   Input ~ 0
 Φ1
-Text HLabel 1100 2750 0    98   UnSpc ~ 0
+Text HLabel 1100 2950 0    98   UnSpc ~ 0
 GND
 $Comp
-L R1SE/H2_0515 U2
+L OAED-library:R1SE_H2_0515 U2
 U 1 1 57D27DC9
 P 2000 1800
 F 0 "U2" H 2000 1550 60  0000 C CNN
@@ -90,7 +57,7 @@ GND
 Text HLabel 1100 1700 0    98   Input ~ 0
 +5V
 $Comp
-L C C1
+L Device:C C1
 U 1 1 57D27E9F
 P 2750 2450
 F 0 "C1" H 2775 2550 50  0000 L CNN
@@ -101,7 +68,7 @@ F 3 "" H 2750 2450 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Q_NIGBT_GCE Q3
+L Device:Q_NIGBT_GCE Q3
 U 1 1 57D2823D
 P 3050 4450
 F 0 "Q3" H 3350 4500 50  0000 R CNN
@@ -112,7 +79,7 @@ F 3 "" H 3050 4450 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TLP250 U5
+L Driver_FET:TLP250 U5
 U 1 1 57D28244
 P 2000 4450
 F 0 "U5" H 1750 4950 50  0000 C CNN
@@ -122,12 +89,12 @@ F 3 "" H 1845 4450 50  0000 L CNN
 	1    2000 4450
 	1    0    0    -1  
 $EndComp
-Text HLabel 1100 4350 0    98   Input ~ 0
+Text HLabel 1100 4150 0    98   Input ~ 0
 Φ1
-Text HLabel 1100 4550 0    98   UnSpc ~ 0
+Text HLabel 1100 4750 0    98   UnSpc ~ 0
 GND
 $Comp
-L R1SE/H2_0515 U4
+L OAED-library:R1SE_H2_0515 U4
 U 1 1 57D2824D
 P 2000 3600
 F 0 "U4" H 2000 3350 60  0000 C CNN
@@ -142,7 +109,7 @@ GND
 Text HLabel 1100 3500 0    98   Input ~ 0
 +5V
 $Comp
-L C C2
+L Device:C C2
 U 1 1 57D28256
 P 2750 4250
 F 0 "C2" H 2775 4350 50  0000 L CNN
@@ -153,7 +120,7 @@ F 3 "" H 2750 4250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Q_NIGBT_GCE Q6
+L Device:Q_NIGBT_GCE Q6
 U 1 1 57D28766
 P 5250 2650
 F 0 "Q6" H 5550 2700 50  0000 R CNN
@@ -164,7 +131,7 @@ F 3 "" H 5250 2650 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L TLP250 U10
+L Driver_FET:TLP250 U10
 U 1 1 57D2876D
 P 6300 2650
 F 0 "U10" H 6050 3150 50  0000 C CNN
@@ -174,12 +141,12 @@ F 3 "" H 6145 2650 50  0000 L CNN
 	1    6300 2650
 	-1   0    0    -1  
 $EndComp
-Text HLabel 7200 2550 2    98   Input ~ 0
+Text HLabel 7200 2350 2    98   Input ~ 0
 Φ2
-Text HLabel 7200 2750 2    98   UnSpc ~ 0
+Text HLabel 7200 2950 2    98   UnSpc ~ 0
 GND
 $Comp
-L R1SE/H2_0515 U9
+L OAED-library:R1SE_H2_0515 U9
 U 1 1 57D28776
 P 6300 1800
 F 0 "U9" H 6300 1550 60  0000 C CNN
@@ -194,7 +161,7 @@ GND
 Text HLabel 7200 1700 2    98   Input ~ 0
 +5V
 $Comp
-L C C5
+L Device:C C5
 U 1 1 57D2877F
 P 5550 2450
 F 0 "C5" H 5575 2550 50  0000 L CNN
@@ -205,7 +172,7 @@ F 3 "" H 5550 2450 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Q_NIGBT_GCE Q7
+L Device:Q_NIGBT_GCE Q7
 U 1 1 57D28799
 P 5250 4450
 F 0 "Q7" H 5550 4500 50  0000 R CNN
@@ -216,7 +183,7 @@ F 3 "" H 5250 4450 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L TLP250 U12
+L Driver_FET:TLP250 U12
 U 1 1 57D287A0
 P 6300 4450
 F 0 "U12" H 6050 4950 50  0000 C CNN
@@ -226,12 +193,12 @@ F 3 "" H 6145 4450 50  0000 L CNN
 	1    6300 4450
 	-1   0    0    -1  
 $EndComp
-Text HLabel 7200 4350 2    98   Input ~ 0
+Text HLabel 7200 4150 2    98   Input ~ 0
 Φ2
-Text HLabel 7200 4550 2    98   UnSpc ~ 0
+Text HLabel 7200 4750 2    98   UnSpc ~ 0
 GND
 $Comp
-L R1SE/H2_0515 U11
+L OAED-library:R1SE_H2_0515 U11
 U 1 1 57D287A9
 P 6300 3600
 F 0 "U11" H 6300 3350 60  0000 C CNN
@@ -246,7 +213,7 @@ GND
 Text HLabel 7200 3500 2    98   Input ~ 0
 +5V
 $Comp
-L C C6
+L Device:C C6
 U 1 1 57D287B2
 P 5550 4250
 F 0 "C6" H 5575 4350 50  0000 L CNN
@@ -257,7 +224,7 @@ F 3 "" H 5550 4250 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Q_NIGBT_GCE Q4
+L Device:Q_NIGBT_GCE Q4
 U 1 1 57D2A858
 P 3050 7000
 F 0 "Q4" H 3350 7050 50  0000 R CNN
@@ -268,7 +235,7 @@ F 3 "" H 3050 7000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TLP250 U7
+L Driver_FET:TLP250 U7
 U 1 1 57D2A85E
 P 2000 7000
 F 0 "U7" H 1750 7500 50  0000 C CNN
@@ -278,12 +245,12 @@ F 3 "" H 1845 7000 50  0000 L CNN
 	1    2000 7000
 	1    0    0    -1  
 $EndComp
-Text HLabel 1100 6900 0    98   Input ~ 0
+Text HLabel 1100 6700 0    98   Input ~ 0
 Φ2
-Text HLabel 1100 7100 0    98   UnSpc ~ 0
+Text HLabel 1100 7300 0    98   UnSpc ~ 0
 GND
 $Comp
-L R1SE/H2_0515 U6
+L OAED-library:R1SE_H2_0515 U6
 U 1 1 57D2A866
 P 2000 6150
 F 0 "U6" H 2000 5900 60  0000 C CNN
@@ -298,7 +265,7 @@ GND
 Text HLabel 1100 6050 0    98   Input ~ 0
 +5V
 $Comp
-L C C3
+L Device:C C3
 U 1 1 57D2A86E
 P 2750 6800
 F 0 "C3" H 2775 6900 50  0000 L CNN
@@ -309,7 +276,7 @@ F 3 "" H 2750 6800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Q_NIGBT_GCE Q5
+L Device:Q_NIGBT_GCE Q5
 U 1 1 57D2A887
 P 3050 8800
 F 0 "Q5" H 3350 8850 50  0000 R CNN
@@ -320,7 +287,7 @@ F 3 "" H 3050 8800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TLP250 U8
+L Driver_FET:TLP250 U8
 U 1 1 57D2A88D
 P 2000 8800
 F 0 "U8" H 1750 9300 50  0000 C CNN
@@ -330,14 +297,14 @@ F 3 "" H 1845 8800 50  0000 L CNN
 	1    2000 8800
 	1    0    0    -1  
 $EndComp
-Text HLabel 1100 8700 0    98   Input ~ 0
+Text HLabel 1100 8500 0    98   Input ~ 0
 Φ2
-Text HLabel 1100 8900 0    98   UnSpc ~ 0
+Text HLabel 1100 9100 0    98   UnSpc ~ 0
 GND
 Text HLabel 1100 7850 0    98   Input ~ 0
 +15V
 $Comp
-L C C4
+L Device:C C4
 U 1 1 57D2A89D
 P 2750 8500
 F 0 "C4" H 2775 8600 50  0000 L CNN
@@ -348,7 +315,7 @@ F 3 "" H 2750 8500 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Q_NIGBT_GCE Q8
+L Device:Q_NIGBT_GCE Q8
 U 1 1 57D2A8B6
 P 5250 7000
 F 0 "Q8" H 5550 7050 50  0000 R CNN
@@ -359,7 +326,7 @@ F 3 "" H 5250 7000 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L TLP250 U14
+L Driver_FET:TLP250 U14
 U 1 1 57D2A8BC
 P 6300 7000
 F 0 "U14" H 6050 7500 50  0000 C CNN
@@ -369,12 +336,12 @@ F 3 "" H 6145 7000 50  0000 L CNN
 	1    6300 7000
 	-1   0    0    -1  
 $EndComp
-Text HLabel 7200 6900 2    98   Input ~ 0
+Text HLabel 7200 6700 2    98   Input ~ 0
 Φ1
-Text HLabel 7200 7100 2    98   UnSpc ~ 0
+Text HLabel 7200 7300 2    98   UnSpc ~ 0
 GND
 $Comp
-L R1SE/H2_0515 U13
+L OAED-library:R1SE_H2_0515 U13
 U 1 1 57D2A8C4
 P 6300 6150
 F 0 "U13" H 6300 5900 60  0000 C CNN
@@ -389,7 +356,7 @@ GND
 Text HLabel 7200 6050 2    98   Input ~ 0
 +5V
 $Comp
-L C C7
+L Device:C C7
 U 1 1 57D2A8CC
 P 5550 6800
 F 0 "C7" H 5575 6900 50  0000 L CNN
@@ -400,7 +367,7 @@ F 3 "" H 5550 6800 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Q_NIGBT_GCE Q9
+L Device:Q_NIGBT_GCE Q9
 U 1 1 57D2A8E5
 P 5250 8800
 F 0 "Q9" H 5550 8850 50  0000 R CNN
@@ -411,7 +378,7 @@ F 3 "" H 5250 8800 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L TLP250 U15
+L Driver_FET:TLP250 U15
 U 1 1 57D2A8EB
 P 6300 8800
 F 0 "U15" H 6050 9300 50  0000 C CNN
@@ -421,12 +388,12 @@ F 3 "" H 6145 8800 50  0000 L CNN
 	1    6300 8800
 	-1   0    0    -1  
 $EndComp
-Text HLabel 7200 8700 2    98   Input ~ 0
+Text HLabel 7200 8500 2    98   Input ~ 0
 Φ1
-Text HLabel 7200 8900 2    98   UnSpc ~ 0
+Text HLabel 7200 9100 2    98   UnSpc ~ 0
 GND
 $Comp
-L C C8
+L Device:C C8
 U 1 1 57D2A8FB
 P 5550 8500
 F 0 "C8" H 5575 8600 50  0000 L CNN
@@ -456,9 +423,9 @@ Wire Wire Line
 	2450 2650 2850 2650
 Connection ~ 2450 2650
 Wire Wire Line
-	1100 2550 1600 2550
+	1100 2350 1600 2350
 Wire Wire Line
-	1100 2750 1600 2750
+	1100 2950 1600 2950
 Wire Wire Line
 	2400 2950 2550 2950
 Wire Wire Line
@@ -489,9 +456,9 @@ Wire Wire Line
 	2450 4450 2850 4450
 Connection ~ 2450 4450
 Wire Wire Line
-	1100 4350 1600 4350
+	1100 4150 1600 4150
 Wire Wire Line
-	1100 4550 1600 4550
+	1100 4750 1600 4750
 Wire Wire Line
 	2400 4750 2550 4750
 Wire Wire Line
@@ -524,9 +491,9 @@ Wire Wire Line
 	5850 2650 5450 2650
 Connection ~ 5850 2650
 Wire Wire Line
-	7200 2550 6700 2550
+	7200 2350 6700 2350
 Wire Wire Line
-	7200 2750 6700 2750
+	7200 2950 6700 2950
 Wire Wire Line
 	5150 2950 5550 2950
 Wire Wire Line
@@ -557,9 +524,9 @@ Wire Wire Line
 	5850 4450 5450 4450
 Connection ~ 5850 4450
 Wire Wire Line
-	7200 4350 6700 4350
+	7200 4150 6700 4150
 Wire Wire Line
-	7200 4550 6700 4550
+	7200 4750 6700 4750
 Wire Wire Line
 	5150 4750 5550 4750
 Wire Wire Line
@@ -590,9 +557,9 @@ Wire Wire Line
 	2450 7000 2850 7000
 Connection ~ 2450 7000
 Wire Wire Line
-	1100 6900 1600 6900
+	1100 6700 1600 6700
 Wire Wire Line
-	1100 7100 1600 7100
+	1100 7300 1600 7300
 Wire Wire Line
 	2400 7300 2550 7300
 Wire Wire Line
@@ -631,9 +598,9 @@ Wire Wire Line
 	2450 8800 2850 8800
 Connection ~ 2450 8800
 Wire Wire Line
-	1100 8700 1600 8700
+	1100 8500 1600 8500
 Wire Wire Line
-	1100 8900 1600 8900
+	1100 9100 1600 9100
 Wire Wire Line
 	2400 9100 2750 9100
 Wire Wire Line
@@ -668,9 +635,9 @@ Wire Wire Line
 	5850 7000 5450 7000
 Connection ~ 5850 7000
 Wire Wire Line
-	7200 6900 6700 6900
+	7200 6700 6700 6700
 Wire Wire Line
-	7200 7100 6700 7100
+	7200 7300 6700 7300
 Wire Wire Line
 	5150 7300 5550 7300
 Wire Wire Line
@@ -709,9 +676,9 @@ Wire Wire Line
 	5850 8800 5450 8800
 Connection ~ 5850 8800
 Wire Wire Line
-	7200 8700 6700 8700
+	7200 8500 6700 8500
 Wire Wire Line
-	7200 8900 6700 8900
+	7200 9100 6700 9100
 Connection ~ 5150 9100
 Connection ~ 5550 9100
 Wire Wire Line
