@@ -22,4 +22,6 @@ Generated_Source
 *.log
 *.zip
 
+# The CMSIS library is expected to be located in this directory but
+# must be downloaded separately from: https://github.com/ARM-software/CMSIS_5/archive/refs/tags/5.1.0.zip
 CMSIS*/

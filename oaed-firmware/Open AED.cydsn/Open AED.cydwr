@@ -353,6 +353,7 @@
       <Data key="b28f9924-693d-458b-b297-27a138c9f0b6" value="Comp_Pin" />
       <Data key="c39ef993-d787-4c0c-8ad6-c0c81f866442/8b77a6c4-10a0-4390-971c-672353e2a49c" value="USBUART_Dm" />
       <Data key="c39ef993-d787-4c0c-8ad6-c0c81f866442/618a72fc-5ddd-4df5-958f-a3d55102db42" value="USBUART_Dp" />
+      <Data key="cc3bcd7e-5dc0-48ea-9bf6-6aa082be1ada" value="ECGOffset" />
       <Data key="cc20fc51-c17d-4f0c-be14-c497d0008c92" value="my_pin" />
       <Data key="e851a3b9-efb8-48be-bbb8-b303b216c393" value="Status_Led" />
       <Data key="f5f451a2-b48c-45b0-872a-1fbc7b1eca2e" value="Phase_Pin" />
@@ -3517,16 +3518,16 @@
     </Group>
     <Group key="e851a3b9-efb8-48be-bbb8-b303b216c393">
       <Group key="0">
-        <Data key="Port Format" value="1,4" />
+        <Data key="Port Format" value="6,2" />
       </Group>
       <Group key="1">
-        <Data key="Port Format" value="1,5" />
+        <Data key="Port Format" value="6,3" />
       </Group>
       <Group key="2">
-        <Data key="Port Format" value="1,6" />
+        <Data key="Port Format" value="6,0" />
       </Group>
       <Group key="3">
-        <Data key="Port Format" value="1,7" />
+        <Data key="Port Format" value="6,6" />
       </Group>
     </Group>
     <Group key="f5f451a2-b48c-45b0-872a-1fbc7b1eca2e">
